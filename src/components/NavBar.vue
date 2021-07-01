@@ -9,9 +9,6 @@
         class="closebtn"
         @click.prevent="toggleNav(0)"
       >&times;</a>
-      <!-- <div class="logo text-primary text-4xl text-center mb-4">
-        BLIZZARD
-      </div> -->
       <a
         class="logo-sidebar justify-center mb-4"
         href="https://www.blizzard.com/"
@@ -69,9 +66,6 @@
         class="ham md:hidden text-2xl cursor-pointer text-primary"
         @click.prevent="toggleNav(1)"
       >&#9776;</span>
-      <!-- <a class="logo text-primary text-xl inline-block mx-auto md:mx-2">
-        BLIZZARD
-      </a> -->
       <a
         class="logo-nav inline-block mx-auto md:mx-2"
         href="https://www.blizzard.com/"
