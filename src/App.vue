@@ -1,23 +1,36 @@
 <template>
   <div id="app">
-    <div class="flex justify-center items-center h-screen">
-      <h1 class="font-bold text-9xl text-emerald-500 text-center">
-        我是主標 Vue with tailwind
-      </h1>
-    </div>
+    <Navbar />
+    <main>
+      <Carousel />
+      <Games />
+      <Download />
+      <Careers />
+    </main>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Navbar from '@/components/NavBar.vue';
+import Carousel from '@/components/Carousel.vue';
+import Games from '@/components/Games.vue';
+import Download from '@/components/Download.vue';
+import Careers from '@/components/Careers.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
-
+    Navbar,
+    Carousel,
+    Games,
+    Download,
+    Careers,
+    Footer,
   },
 };
 </script>
 
 <style lang="scss">
-
 </style>

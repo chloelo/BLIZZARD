@@ -9,7 +9,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        emerald: colors.emerald,
+        // primary: '#009ae4',
+        primary: {
+          DEFAULT: '#009ae4',
+          dark: '#151a23',
+        },
         gray: colors.trueGray,
       },
     },
